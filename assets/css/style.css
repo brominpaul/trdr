@@ -434,6 +434,14 @@ button:focus {
   padding-bottom: 25px;
   color: #303669;
 }
+
+.header-sub-title-semi {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1;
+  padding-bottom: 25px;
+  color: #303669;
+}
 .header-title-text {
   font-size: 25px;
   font-weight: 400;
