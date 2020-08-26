@@ -121,8 +121,13 @@
             <p class="header-subtitle">Simple stock investing</p>
             
             <p class="header-title-text">
-              <b>Trdr</b>(read as trader), allows everyone to 
+              <b>Trdr&nbsp;</b>(read as trader), allows everyone to 
               invest in stocks using our <b>Robo trdr</b></p>
+
+              <p class="header-title-text">
+                <b(read as trader), allows everyone to 
+                invest in stocks using our <b>Robo trdr</b></p>
+
             <div class="row ml-0">
               <div col-6>
                 <p class="header-sub-boldtitle">Zero</p>
@@ -130,7 +135,7 @@
               <div col-6>
                 <p1 class="header-sub-boldtitle mt-0">&nbsp;manual effort</p1>
                 <p1 class="header-sub-boldtitle mt-0">&nbsp;time investment</p1>
-                <p1 class="header-sub-boldtitle mt-0">&nbsp;Coding</p1>
+                <p1 class="header-sub-boldtitle mt-0">&nbsp;coding</p1>
                 <p1 class="header-sub-boldtitle mt-0">&nbsp;human emotions</p1>
                 <p1 class="header-sub-boldtitle mt-0">&nbsp;human strategies</p1>
                 <p1 class="header-sub-boldtitle mt-0">&nbsp;human algorithms</p1>
@@ -145,7 +150,8 @@
 
           <div>
             <form
-              class="invitation-form flex flex-row rounded-lg p-2 bg-white border border-separator shadow mt-8 mb-4 invite-input">
+              class="invitation-form flex flex-row rounded-lg p-2 bg-white border border-separator shadow mt-8 mb-4 invite-input"
+            >
               <input
                 type="email"
                 required=""
@@ -183,11 +189,69 @@
         <h4>every investor has the best possible experiance</h4>
       </div>
       <div class="pt-5 pb-5 d-flex justify-content-center  col-sm-12 col-md-12 col-lg-12">
-        <button class="btn-nblue">Reserve your spot</button>
+        <a href="" class="btn-nblue mb-4" data-toggle="modal" data-target="#modalSubscriptionForm">Reserve your spot</a>
       </div>
     </div>
     <!-- END OF section 2 -->
+    <!-- modal form -->
+    <div class="container my-4">
+
+      <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+        <h5 class="modal-title font-weight-bold">Request access</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+      <div class="modal-body mx-3">
+        <div class="row">
+          <div class="col-6">
+            <div class="row">
+              <div class="col-12"></div>
+                <div class="md-form mb-3">	
+                <input type="text" id="form3" class="modal-input validate" placeholder="Full name">
+              </div>
+            </div>
+              
+          
+            <div class="row">
+              <div class="col-12"></div>
+                <div class="md-form mb-3">	
+                <input type="text" id="form3" class="modal-input validate" placeholder="Email address">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12"></div>
+                <div class="md-form mb-3" style="color: #526b84;">	
+                <label style="color: #526b84;" >Reserve your spot now to get early access</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12"></div>
+                <div class="md-form mb-3">	
+                <button class="modal-btn">Request early access</button>
+              </div>
+            </div>
+          </div>
+          <div  class="modal-img col-6">
+            <img class="modal-img " src="assets/images/trdr-modal.png">
+          </div>
+        </div>	
+      </div>
     
+      </div>
+      </div>
+      </div>
+    </div>
+    
+    
+  </div>
+
+
+
 
     <script>
       $(document).ready(function () {
@@ -196,7 +260,7 @@
           $("p1").css("opacity", "0");
           $("p1:eq(" + i + ")").css("opacity", "1");
           console.log("interval" + i);
-          if (i == 2) {
+          if (i == 6) {
             i = 0;
           } else {
             i++;
