@@ -1035,6 +1035,44 @@ button:focus {
     text-align: center;
   }
 }
+.footer {
+  font-size: 0.875rem;
+}
+.footer h4 {
+  font-weight: 600;
+}
+.footer .col-heading {
+  font-size: 1.25rem;
+}
+.footer li {
+  margin-bottom: 0.5rem;
+}
+.footer a {
+  color: #526b84;
+}
+.footer .social-list li {
+  font-size: 1.25rem;
+}
+.footer .download-area h3 {
+  font-size: 1.5rem;
+}
+.footer .download-area .section-intro {
+  font-size: 1rem;
+}
+.footer .download-area .app-stores img {
+  height: 40px;
+}
+.footer .copyright {
+  font-size: 0.875rem;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .footer .download-area .app-stores img.ios {
+    width: 120px;
+  }
+  .footer .download-area .app-stores img .android {
+    width: 135px;
+  }
+}
 .footer-section {
   padding-top: 75px;
   padding-bottom: 55px;
